@@ -2,6 +2,9 @@ class Car:
   def __init__(self):
     print("This is a new Car")
 
+  def turn_ac(self,flag):
+    print('AC is :'+ flag)
+
   def start_engine(self):
     print("Engine Started")
 
